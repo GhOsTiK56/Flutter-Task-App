@@ -10,6 +10,6 @@ app.get("/", (req, res) => {
     res.send("Welcomdde to my app!");
 });
 
-app.listen(8000, () => {
-    console.log("Server started on port 8000");
+app.listen(8000, '0.0.0.0', () => {
+    console.log("Server started on http://0.0.0.0:8000");
 });

@@ -90,7 +90,7 @@ class _LoginPageState extends State<LoginPage> {
                     style: Theme.of(context).textTheme.titleMedium,
                     children: const [
                       TextSpan(
-                        text: 'Login',
+                        text: 'Sign In',
                         style: TextStyle(fontWeight: FontWeight.bold),
                       ),
                     ],
