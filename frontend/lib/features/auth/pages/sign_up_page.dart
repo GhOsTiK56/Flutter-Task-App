@@ -103,7 +103,7 @@ class _SignUpPageState extends State<SignUpPage> {
                     style: Theme.of(context).textTheme.titleMedium,
                     children: const [
                       TextSpan(
-                        text: 'Sign Up',
+                        text: 'Login',
                         style: TextStyle(fontWeight: FontWeight.bold),
                       ),
                     ],
